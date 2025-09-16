@@ -16,6 +16,7 @@ ggplot(diamonds, aes(x = price, y = carat, color = cut)) +
   geom_point() +
   labs(
     title = "Diamonds: Price vs Carat",
+    subtitle = Sys.time(),
     x = "Price (USD)",
     y = "Carat",
     color = "Cut"
