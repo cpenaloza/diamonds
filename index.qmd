@@ -3,7 +3,6 @@ title: "Untitled"
 format: html
 ---
 
-
 ```{r}
 library(ggplot2)
 dplyr::glimpse(diamonds)
