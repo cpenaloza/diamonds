@@ -37,7 +37,7 @@ jobs:
 
       # Publish html/ to GitHub pages
       - name: Publish to GitHub pages 🚀
-        uses: cpenaloza/github-pages-deploy-action@v4.5.0
+        uses: cpenaloza/diamonds/github-pages-deploy-action@v4.5.0
         with:
           folder: html      
       #   with:
