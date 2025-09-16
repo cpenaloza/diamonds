@@ -1,0 +1,25 @@
+---
+title: "Untitled"
+format: html
+---
+
+
+```{r}
+library(ggplot2)
+dplyr::glimpse(diamonds)
+
+# diamonds |> 
+#     ggplot(aes(price, carat, color = cut)) +
+#     geom_point()
+
+ggplot(diamonds, aes(x = price, y = carat, color = cut)) +
+  geom_point() +
+  labs(
+    title = "Diamonds: Price vs Carat",
+    x = "Price (USD)",
+    y = "Carat",
+    color = "Cut"
+  ) +
+  theme_minimal()
+
+```
